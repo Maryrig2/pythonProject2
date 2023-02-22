@@ -9,3 +9,6 @@ n=len(sys.argv)
 print("The arguments other than filename are:")
 for i in range(1,n):
     print(sys.argv[i],end=" ")
+
+import keyword
+print(keyword.kwlist)
